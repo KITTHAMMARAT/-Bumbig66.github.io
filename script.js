@@ -4,7 +4,7 @@ const products = Array.from({length: 50}, (_, i) => ({
     price: 100 + (i * 10),
     img: [
         "image.1.png",
-        "image.2.png.png",
+        "image.2.png",
         "image.3.png",
         "image.4.png",
         "image.5.png"
