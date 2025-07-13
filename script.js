@@ -1,16 +1,19 @@
-const products = Array.from({length: 50}, (_, i) => ({
+const products = Array.from({length: 9}, (_, i) => ({
     id: i + 1,
-    name: `สินค้า ${i + 1}`,
-    price: 100 + (i * 10),
+    name: `ขนมบราวนี่ ${i + 1}`,
+    price: 60 + (i * 0),
     img: [
-        "image.1.png",
-        "image.2.png",
-        "image.3.png",
-        "image.4.png",
-        "image.5.png"
-    ][i % 5]
+        "imge.1.png",
+        "imge.2.png",
+        "imge.3.png",
+        "imge.4.png",
+        "imge.5.png",
+        "imge.6.png",
+        "imge.7.png",
+        "imge.8.png",
+        "imge.9.png"
+    ][i % 9]
 }));
-
 function addToCart(id) {
     let cart = JSON.parse(localStorage.getItem('cart') || "[]");
     const product = products.find(p => p.id === id);
