@@ -8,8 +8,7 @@ const products = Array.from({length: 50}, (_, i) => ({
         "image.3.png",
         "image.4.png",
         "image.5.png"
-        "image.6.png"
-    ][i % 6]
+    ][i % 5]
 }));
 
 function addToCart(id) {
