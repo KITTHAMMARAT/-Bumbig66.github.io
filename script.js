@@ -3,7 +3,7 @@ const products = Array.from({length: 9}, (_, i) => ({
     name: `ขนมบราวนี่ ${i + 1}`,
     price: 60 + (i * 0),
     img: [
-        "imge.1.png",
+        "file:///C:/xampp/htdocs/online/imge.1.png",
         "imge.2.png",
         "imge.3.png",
         "imge.4.png",
