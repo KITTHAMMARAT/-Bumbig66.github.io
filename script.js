@@ -3,12 +3,13 @@ const products = Array.from({length: 50}, (_, i) => ({
     name: `สินค้า ${i + 1}`,
     price: 100 + (i * 10),
     img: [
-        "https://cdn-icons-png.flaticon.com/512/892/892458.png",
-        "https://cdn-icons-png.flaticon.com/512/2465/2465757.png",
-        "https://cdn-icons-png.flaticon.com/512/482/482475.png",
-        "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
-        "https://cdn-icons-png.flaticon.com/512/1086/1086741.png"
-    ][i % 5]
+        "image.1.png",
+        "image.2.png.png",
+        "image.3.png",
+        "image.4.png",
+        "image.5.png"
+        "image.6.png"
+    ][i % 6]
 }));
 
 function addToCart(id) {
