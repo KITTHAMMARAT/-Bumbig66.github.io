@@ -22,7 +22,7 @@ function addToCart(id) {
     }
     localStorage.setItem('cart', JSON.stringify(cart));
     showToast(`${product.name} ถูกหยิบใส่ตะกร้าแล้ว`);
-    setTimeout(()=>window.location.href="cart.php",700);
+    setTimeout(()=>window.location.href="cart.html",700);
 }
 
 function renderProducts() {
